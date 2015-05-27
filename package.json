@@ -1,15 +1,18 @@
 {
-  "name": "grunt-haml2html",
+  "name": "grunt-haml2html-shahata",
   "description": "Compile Haml to HTML",
   "version": "0.3.0",
   "homepage": "https://github.com/jhchen/grunt-haml2html",
-  "contributors": [{
-    "name": "Jason Chen",
-    "url": "http://www.jasonchen.me/"
-  }, {
-    "name": "Grunt Team",
-    "url": "http://gruntjs.com/"
-  }],
+  "contributors": [
+    {
+      "name": "Jason Chen",
+      "url": "http://www.jasonchen.me/"
+    },
+    {
+      "name": "Grunt Team",
+      "url": "http://gruntjs.com/"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jhchen/grunt-haml2html.git"
@@ -31,6 +34,7 @@
     "test": "grunt test"
   },
   "dependencies": {
+    "async": "^1.0.0",
     "dargs": "~0.1.0"
   },
   "devDependencies": {
